@@ -1,0 +1,40 @@
+.nav-container {
+    padding: 24px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: Cinzel;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: 0.55em;
+    color: #000000;
+}
+
+.main-nav {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.nav-items {
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 24px;
+    color: #767676;
+}
+
+.main-nav .active {
+    color: #1B263B;
+    border-bottom: solid 3px #1B263B;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+.cart i {
+    width: 24px;
+    height: 24px;
+}
